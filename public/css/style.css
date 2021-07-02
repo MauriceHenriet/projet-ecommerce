@@ -1,0 +1,36 @@
+#mainPictureDiv {
+  height: 100vh;
+  background-image: url("../images/guitare.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+#mainPictureDiv h1 {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 58px;
+  color: white;
+}
+
+#mainPictureDiv a {
+  margin: 0 auto;
+  font-size: 18px !important;
+}
+
+#mainPictureDiv div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* FORM Bootstrap */
+.form-error-icon {
+  color: black;
+}
+.invalid-feedback {
+  color: black;
+}
